@@ -85,7 +85,7 @@ function handleDelete(payload: { id: string; isSaved: boolean }) {
 .accounts__head {
   margin-top: 16px;
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr 1fr 1fr 72px;
+  grid-template-columns: 1.3fr 0.8fr 1fr 1fr 72px;
   gap: 12px;
   padding: 0 12px;
   color: #64748b;
@@ -98,9 +98,10 @@ function handleDelete(payload: { id: string; isSaved: boolean }) {
 
 .accounts__row {
   display: grid;
-  grid-template-columns: 1.3fr 0.8fr 1fr 1fr 60px;
+  grid-template-columns: 1.3fr 0.8fr 1fr 1fr 72px;
   gap: 12px;
-  padding: 12px;
+  align-items: start;
+  padding: 6px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: #fff;
